@@ -5,9 +5,9 @@ import './App.css';
 let mysql = require('mysql');
 
 let connection = mysql.createConnection({
-  host      : 'host',
-  user      : 'username',
-  password  : 'password'
+  host      : 'HOST',
+  user      : 'USER',
+  password  : 'PASSWORD'
 });
 
 connection.connect(function(err) {
